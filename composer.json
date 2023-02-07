@@ -1,0 +1,5 @@
+{
+  "name": "xenyo/standard_page",
+  "description": "Provides paragraph types for standard pages.",
+  "type": "drupal-module"
+}
