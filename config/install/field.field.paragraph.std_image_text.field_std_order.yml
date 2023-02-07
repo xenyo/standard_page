@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_std_order
+    - paragraphs.paragraphs_type.std_image_text
+  module:
+    - options
+id: paragraph.std_image_text.field_std_order
+field_name: field_std_order
+entity_type: paragraph
+bundle: std_image_text
+label: Order
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: std-order--normal
+default_value_callback: ''
+settings: {  }
+field_type: list_string

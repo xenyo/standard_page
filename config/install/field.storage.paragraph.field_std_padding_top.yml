@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_std_padding_top
+field_name: field_std_padding_top
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: std-padding-top--sm
+      label: Small
+    -
+      value: std-padding-top--md
+      label: Medium
+    -
+      value: std-padding-top--lg
+      label: Large
+    -
+      value: std-padding-top--xl
+      label: 'Extra large'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

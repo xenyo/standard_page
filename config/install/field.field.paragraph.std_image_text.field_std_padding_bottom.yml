@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_std_padding_bottom
+    - paragraphs.paragraphs_type.std_image_text
+  module:
+    - options
+id: paragraph.std_image_text.field_std_padding_bottom
+field_name: field_std_padding_bottom
+entity_type: paragraph
+bundle: std_image_text
+label: 'Padding bottom'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: std-padding-bottom--md
+default_value_callback: ''
+settings: {  }
+field_type: list_string

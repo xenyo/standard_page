@@ -1,0 +1,14 @@
+global:
+  css:
+    theme:
+      assets/std-bgcolor/std-bgcolor.css: {}
+      assets/std-cols/std-cols.css: {}
+      assets/std-banner/std-banner.css: {}
+      assets/std-image-grid/std-image-grid.css: {}
+      assets/std-image-text-grid/std-image-text-grid.css: {}
+      assets/std-image-text/std-image-text.css: {}
+      assets/std-image/std-image.css: {}
+      assets/std-padding/std-padding.css: {}
+      assets/std-text-grid/std-text-grid.css: {}
+      assets/std-text/std-text.css: {}
+      assets/std-wrapper/std-wrapper.css: {}

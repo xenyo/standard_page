@@ -1,0 +1,56 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.std_banner.field_std_image
+    - field.field.paragraph.std_banner.field_std_padding_bottom
+    - field.field.paragraph.std_banner.field_std_padding_top
+    - field.field.paragraph.std_banner.field_std_text
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.std_banner
+  module:
+    - image_widget_crop
+    - text
+id: paragraph.std_banner.default
+targetEntityType: paragraph
+bundle: std_banner
+mode: default
+content:
+  field_std_image:
+    type: image_widget_crop
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+      crop_preview_image_style: crop_thumbnail
+      crop_list:
+        - std_crop
+      crop_types_required: {  }
+      warn_multiple_usages: true
+      show_crop_area: false
+      show_default_crop: true
+    third_party_settings: {  }
+  field_std_padding_bottom:
+    type: options_select
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_std_padding_top:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_std_text:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

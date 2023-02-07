@@ -1,0 +1,5 @@
+<?php
+
+include 'functions/page_attachments.inc';
+include 'functions/preprocess_paragraph.inc';
+include 'functions/theme.inc';

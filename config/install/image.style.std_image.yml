@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.std_crop
+  module:
+    - crop
+name: std_image
+label: 'Standard image'
+effects:
+  5e6581d4-dec1-4463-804e-fabf6e1e17b0:
+    uuid: 5e6581d4-dec1-4463-804e-fabf6e1e17b0
+    id: image_scale
+    weight: -9
+    data:
+      width: 1920
+      height: null
+      upscale: false
+  d409a3bc-7ff5-41bf-8ff2-4e8e10b69de6:
+    uuid: d409a3bc-7ff5-41bf-8ff2-4e8e10b69de6
+    id: image_scale
+    weight: -8
+    data:
+      width: null
+      height: 1080
+      upscale: false
+  d4ee4aaa-3cca-4b9d-8a1a-e7136a888014:
+    uuid: d4ee4aaa-3cca-4b9d-8a1a-e7136a888014
+    id: crop_crop
+    weight: -10
+    data:
+      crop_type: std_crop
+      automatic_crop_provider: null

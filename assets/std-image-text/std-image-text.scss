@@ -1,0 +1,31 @@
+@use 'sass-utils' as *;
+
+.std-image-text {
+  img {
+    display: block;
+  }
+
+  &.std-order--reverse {
+    .std-image-text__image {
+      @include above($md) {
+        order: 1;
+      }
+    }
+  }
+
+  &.std-valign--center {
+    .std-image-text__cols {
+      align-items: center;
+    }
+  }
+}
+
+.std-image-text__cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+
+  @include below($md) {
+    grid-template-columns: none;
+  }
+}

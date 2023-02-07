@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: std_image_text_grid_item
+label: 'Image + Text grid item'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

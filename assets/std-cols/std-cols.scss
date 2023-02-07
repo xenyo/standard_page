@@ -1,0 +1,38 @@
+@use 'sass-utils' as *;
+
+.std-cols {
+  display: grid;
+  gap: 30px;
+}
+
+.std-cols--2 {
+  grid-template-columns: repeat(2, 1fr);
+
+  @include below($md) {
+    grid-template-columns: none;
+  }
+}
+
+.std-cols--3 {
+  grid-template-columns: repeat(3, 1fr);
+
+  @include below($md) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include below($sm) {
+    grid-template-columns: none;
+  }
+}
+
+.std-cols--4 {
+  grid-template-columns: repeat(4, 1fr);
+
+  @include below($md) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include below($sm) {
+    grid-template-columns: none;
+  }
+}

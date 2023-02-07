@@ -1,0 +1,21 @@
+.std-text {
+  &.std-halign--center {
+    text-align: center;
+
+    .std-text__text {
+      margin: auto;
+    }
+  }
+
+  &.std-halign--right {
+    text-align: right;
+
+    .std-text__text {
+      margin-left: auto;
+    }
+  }
+}
+
+.std-text__text {
+  max-width: 960px;
+}

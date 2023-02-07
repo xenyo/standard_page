@@ -1,0 +1,26 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.std_image_grid_item.field_std_image
+    - image.style.std_image
+    - paragraphs.paragraphs_type.std_image_grid_item
+  module:
+    - image
+id: paragraph.std_image_grid_item.default
+targetEntityType: paragraph
+bundle: std_image_grid_item
+mode: default
+content:
+  field_std_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: std_image
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

@@ -1,0 +1,57 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_std_items
+    - paragraphs.paragraphs_type.std_image_text_grid
+    - paragraphs.paragraphs_type.std_image_text_grid_item
+  module:
+    - entity_reference_revisions
+id: paragraph.std_image_text_grid.field_std_items
+field_name: field_std_items
+entity_type: paragraph
+bundle: std_image_text_grid
+label: Items
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      std_image_text_grid_item: std_image_text_grid_item
+    negate: 0
+    target_bundles_drag_drop:
+      std_hero:
+        weight: 11
+        enabled: false
+      std_image:
+        weight: 12
+        enabled: false
+      std_image_grid:
+        weight: 13
+        enabled: false
+      std_image_grid_item:
+        weight: 14
+        enabled: false
+      std_image_text:
+        weight: 15
+        enabled: false
+      std_image_text_grid:
+        weight: 16
+        enabled: false
+      std_image_text_grid_item:
+        weight: 17
+        enabled: true
+      std_text:
+        weight: 18
+        enabled: false
+      std_text_grid:
+        weight: 19
+        enabled: false
+      std_text_grid_item:
+        weight: 20
+        enabled: false
+field_type: entity_reference_revisions

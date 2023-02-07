@@ -1,0 +1,72 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_std_items
+    - node.type.std_page
+    - paragraphs.paragraphs_type.std_banner
+    - paragraphs.paragraphs_type.std_image
+    - paragraphs.paragraphs_type.std_image_grid
+    - paragraphs.paragraphs_type.std_image_text
+    - paragraphs.paragraphs_type.std_image_text_grid
+    - paragraphs.paragraphs_type.std_text
+    - paragraphs.paragraphs_type.std_text_grid
+  module:
+    - entity_reference_revisions
+id: node.std_page.field_std_items
+field_name: field_std_items
+entity_type: node
+bundle: std_page
+label: Blocks
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      std_text: std_text
+      std_image: std_image
+      std_image_text: std_image_text
+      std_text_grid: std_text_grid
+      std_image_grid: std_image_grid
+      std_image_text_grid: std_image_text_grid
+      std_banner: std_banner
+    negate: 0
+    target_bundles_drag_drop:
+      std_banner:
+        weight: 12
+        enabled: true
+      std_hero:
+        weight: -12
+        enabled: true
+      std_image:
+        weight: -20
+        enabled: true
+      std_image_grid:
+        weight: -16
+        enabled: true
+      std_image_grid_item:
+        weight: -15
+        enabled: false
+      std_image_text:
+        weight: -19
+        enabled: true
+      std_image_text_grid:
+        weight: -14
+        enabled: true
+      std_image_text_grid_item:
+        weight: -13
+        enabled: false
+      std_text:
+        weight: -21
+        enabled: true
+      std_text_grid:
+        weight: -18
+        enabled: true
+      std_text_grid_item:
+        weight: -17
+        enabled: false
+field_type: entity_reference_revisions
