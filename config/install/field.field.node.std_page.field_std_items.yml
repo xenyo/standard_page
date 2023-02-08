@@ -39,9 +39,6 @@ settings:
       std_banner:
         weight: 12
         enabled: true
-      std_hero:
-        weight: -12
-        enabled: true
       std_image:
         weight: -20
         enabled: true
