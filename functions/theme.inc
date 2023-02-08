@@ -34,6 +34,14 @@ function standard_page_theme() {
       'template' => 'paragraph--std-image-text-grid-item',
       'base hook' => 'paragraph',
     ],
+    'paragraph__std_slideshow' => [
+      'template' => 'paragraph--std-slideshow',
+      'base hook' => 'paragraph',
+    ],
+    'paragraph__std_slideshow_item' => [
+      'template' => 'paragraph--std-slideshow-item',
+      'base hook' => 'paragraph',
+    ],
     'paragraph__std_text' => [
       'template' => 'paragraph--std-text',
       'base hook' => 'paragraph',

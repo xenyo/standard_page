@@ -12,3 +12,12 @@ global:
       assets/std-text-grid/std-text-grid.css: {}
       assets/std-text/std-text.css: {}
       assets/std-wrapper/std-wrapper.css: {}
+  js:
+    assets/std-slideshow/std-slideshow.js: {}
+
+swiper:
+  css:
+    theme:
+      /libraries/swiper/swiper-bundle.min.css: {}
+  js:
+    /libraries/swiper/swiper-bundle.min.js: {}
