@@ -4,14 +4,10 @@ dependencies:
   config:
     - field.field.paragraph.std_image_text.field_std_image
     - field.field.paragraph.std_image_text.field_std_order
-    - field.field.paragraph.std_image_text.field_std_padding_bottom
-    - field.field.paragraph.std_image_text.field_std_padding_top
     - field.field.paragraph.std_image_text.field_std_text
     - field.field.paragraph.std_image_text.field_std_valign
-    - image.style.std_image
     - paragraphs.paragraphs_type.std_image_text
   module:
-    - image
     - text
 id: paragraph.std_image_text.default
 targetEntityType: paragraph
@@ -19,15 +15,13 @@ bundle: std_image_text
 mode: default
 content:
   field_std_image:
-    type: image
+    type: entity_reference_entity_view
     label: hidden
     settings:
-      image_link: ''
-      image_style: std_image
-      image_loading:
-        attribute: lazy
+      view_mode: default
+      link: false
     third_party_settings: {  }
-    weight: 0
+    weight: 2
     region: content
   field_std_text:
     type: text_default
@@ -38,6 +32,4 @@ content:
     region: content
 hidden:
   field_std_order: true
-  field_std_padding_bottom: true
-  field_std_padding_top: true
   field_std_valign: true

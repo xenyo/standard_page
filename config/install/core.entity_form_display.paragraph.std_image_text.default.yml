@@ -4,14 +4,11 @@ dependencies:
   config:
     - field.field.paragraph.std_image_text.field_std_image
     - field.field.paragraph.std_image_text.field_std_order
-    - field.field.paragraph.std_image_text.field_std_padding_bottom
-    - field.field.paragraph.std_image_text.field_std_padding_top
     - field.field.paragraph.std_image_text.field_std_text
     - field.field.paragraph.std_image_text.field_std_valign
-    - image.style.thumbnail
     - paragraphs.paragraphs_type.std_image_text
   module:
-    - image_widget_crop
+    - media_library
     - text
 id: paragraph.std_image_text.default
 targetEntityType: paragraph
@@ -19,35 +16,15 @@ bundle: std_image_text
 mode: default
 content:
   field_std_image:
-    type: image_widget_crop
-    weight: 0
+    type: media_library_widget
+    weight: 4
     region: content
     settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-      crop_preview_image_style: large
-      crop_list:
-        - std_crop
-      crop_types_required: {  }
-      warn_multiple_usages: true
-      show_crop_area: false
-      show_default_crop: true
+      media_types: {  }
     third_party_settings: {  }
   field_std_order:
     type: options_select
     weight: 2
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_std_padding_bottom:
-    type: options_select
-    weight: 5
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_std_padding_top:
-    type: options_select
-    weight: 4
     region: content
     settings: {  }
     third_party_settings: {  }

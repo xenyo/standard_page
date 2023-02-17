@@ -3,7 +3,6 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.std_image_text_grid.field_std_cols
-    - field.field.paragraph.std_image_text_grid.field_std_halign
     - field.field.paragraph.std_image_text_grid.field_std_items
     - paragraphs.paragraphs_type.std_image_text_grid
   module:
@@ -24,4 +23,3 @@ content:
     region: content
 hidden:
   field_std_cols: true
-  field_std_halign: true

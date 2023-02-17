@@ -3,9 +3,8 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.field_std_image
+    - media.type.std_image
     - paragraphs.paragraphs_type.std_image_grid_item
-  module:
-    - image
 id: paragraph.std_image_grid_item.field_std_image
 field_name: field_std_image
 entity_type: paragraph
@@ -17,21 +16,13 @@ translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
-  handler: 'default:file'
-  handler_settings: {  }
-  file_directory: '[date:custom:Y]-[date:custom:m]'
-  file_extensions: 'png gif jpg jpeg'
-  max_filesize: ''
-  max_resolution: ''
-  min_resolution: ''
-  alt_field: true
-  alt_field_required: false
-  title_field: false
-  title_field_required: false
-  default_image:
-    uuid: ''
-    alt: ''
-    title: ''
-    width: null
-    height: null
-field_type: image
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      std_image: std_image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

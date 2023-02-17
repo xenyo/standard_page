@@ -2,17 +2,17 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_std_image
-    - paragraphs.paragraphs_type.std_banner
+    - field.storage.media.field_media_image
+    - media.type.std_image
   module:
     - image
-id: paragraph.std_banner.field_std_image
-field_name: field_std_image
-entity_type: paragraph
-bundle: std_banner
+id: media.std_image.field_media_image
+field_name: field_media_image
+entity_type: media
+bundle: std_image
 label: Image
 description: ''
-required: false
+required: true
 translatable: true
 default_value: {  }
 default_value_callback: ''

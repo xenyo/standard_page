@@ -4,10 +4,9 @@ dependencies:
   config:
     - field.field.paragraph.std_image_text_grid_item.field_std_image
     - field.field.paragraph.std_image_text_grid_item.field_std_text
-    - image.style.thumbnail
     - paragraphs.paragraphs_type.std_image_text_grid_item
   module:
-    - image_widget_crop
+    - media_library
     - text
 id: paragraph.std_image_text_grid_item.default
 targetEntityType: paragraph
@@ -15,19 +14,11 @@ bundle: std_image_text_grid_item
 mode: default
 content:
   field_std_image:
-    type: image_widget_crop
-    weight: 0
+    type: media_library_widget
+    weight: 2
     region: content
     settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-      crop_preview_image_style: crop_thumbnail
-      crop_list:
-        - std_crop
-      crop_types_required: {  }
-      warn_multiple_usages: true
-      show_crop_area: false
-      show_default_crop: true
+      media_types: {  }
     third_party_settings: {  }
   field_std_text:
     type: text_textarea

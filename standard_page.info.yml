@@ -7,8 +7,8 @@ dependencies:
   - node
   - paragraphs
 config_devel:
-  - core.entity_form_display.node.std_page.default
-  - core.entity_form_display.paragraph.std_banner.default
+  - core.entity_form_display.media.std_image.default
+  - core.entity_form_display.media.std_image.media_library
   - core.entity_form_display.paragraph.std_image.default
   - core.entity_form_display.paragraph.std_image_grid.default
   - core.entity_form_display.paragraph.std_image_grid_item.default
@@ -18,8 +18,8 @@ config_devel:
   - core.entity_form_display.paragraph.std_text.default
   - core.entity_form_display.paragraph.std_text_grid.default
   - core.entity_form_display.paragraph.std_text_grid_item.default
-  - core.entity_view_display.node.std_page.default
-  - core.entity_view_display.paragraph.std_banner.default
+  - core.entity_view_display.media.std_image.default
+  - core.entity_view_display.media.std_image.media_library
   - core.entity_view_display.paragraph.std_image.default
   - core.entity_view_display.paragraph.std_image_grid.default
   - core.entity_view_display.paragraph.std_image_grid_item.default
@@ -30,54 +30,31 @@ config_devel:
   - core.entity_view_display.paragraph.std_text_grid.default
   - core.entity_view_display.paragraph.std_text_grid_item.default
   - crop.type.std_crop
-  - field.field.node.std_page.field_std_items
-  - field.field.paragraph.std_banner.field_std_image
-  - field.field.paragraph.std_banner.field_std_padding_bottom
-  - field.field.paragraph.std_banner.field_std_padding_top
-  - field.field.paragraph.std_banner.field_std_text
-  - field.field.paragraph.std_image.field_std_halign
+  - field.field.media.std_image.field_media_image
   - field.field.paragraph.std_image.field_std_image
   - field.field.paragraph.std_image_grid.field_std_cols
   - field.field.paragraph.std_image_grid.field_std_items
-  - field.field.paragraph.std_image_grid.field_std_padding_bottom
-  - field.field.paragraph.std_image_grid.field_std_padding_top
   - field.field.paragraph.std_image_grid_item.field_std_image
   - field.field.paragraph.std_image_text.field_std_image
   - field.field.paragraph.std_image_text.field_std_order
-  - field.field.paragraph.std_image_text.field_std_padding_bottom
-  - field.field.paragraph.std_image_text.field_std_padding_top
   - field.field.paragraph.std_image_text.field_std_text
   - field.field.paragraph.std_image_text.field_std_valign
   - field.field.paragraph.std_image_text_grid.field_std_cols
-  - field.field.paragraph.std_image_text_grid.field_std_halign
   - field.field.paragraph.std_image_text_grid.field_std_items
   - field.field.paragraph.std_image_text_grid_item.field_std_image
   - field.field.paragraph.std_image_text_grid_item.field_std_text
-  - field.field.paragraph.std_text.field_std_halign
-  - field.field.paragraph.std_text.field_std_padding_bottom
-  - field.field.paragraph.std_text.field_std_padding_top
   - field.field.paragraph.std_text.field_std_text
-  - field.field.paragraph.std_text_grid.field_std_bgcolor
   - field.field.paragraph.std_text_grid.field_std_cols
-  - field.field.paragraph.std_text_grid.field_std_halign
   - field.field.paragraph.std_text_grid.field_std_items
-  - field.field.paragraph.std_text_grid.field_std_padding_bottom
-  - field.field.paragraph.std_text_grid.field_std_padding_top
   - field.field.paragraph.std_text_grid_item.field_std_text
-  - field.storage.node.field_std_items
-  - field.storage.paragraph.field_std_bgcolor
   - field.storage.paragraph.field_std_cols
-  - field.storage.paragraph.field_std_halign
   - field.storage.paragraph.field_std_image
   - field.storage.paragraph.field_std_items
   - field.storage.paragraph.field_std_order
-  - field.storage.paragraph.field_std_padding_bottom
-  - field.storage.paragraph.field_std_padding_top
   - field.storage.paragraph.field_std_text
   - field.storage.paragraph.field_std_valign
   - image.style.std_image
-  - node.type.std_page
-  - paragraphs.paragraphs_type.std_banner
+  - media.type.std_image
   - paragraphs.paragraphs_type.std_image_grid_item
   - paragraphs.paragraphs_type.std_image_grid
   - paragraphs.paragraphs_type.std_image_text_grid_item

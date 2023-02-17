@@ -4,10 +4,8 @@ dependencies:
   config:
     - field.field.paragraph.std_image_text_grid_item.field_std_image
     - field.field.paragraph.std_image_text_grid_item.field_std_text
-    - image.style.std_image
     - paragraphs.paragraphs_type.std_image_text_grid_item
   module:
-    - image
     - text
 id: paragraph.std_image_text_grid_item.default
 targetEntityType: paragraph
@@ -15,15 +13,13 @@ bundle: std_image_text_grid_item
 mode: default
 content:
   field_std_image:
-    type: image
+    type: entity_reference_entity_view
     label: hidden
     settings:
-      image_link: ''
-      image_style: std_image
-      image_loading:
-        attribute: lazy
+      view_mode: default
+      link: true
     third_party_settings: {  }
-    weight: 0
+    weight: 2
     region: content
   field_std_text:
     type: text_default
