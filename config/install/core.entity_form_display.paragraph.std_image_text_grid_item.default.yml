@@ -15,7 +15,7 @@ mode: default
 content:
   field_std_image:
     type: media_library_widget
-    weight: 2
+    weight: 0
     region: content
     settings:
       media_types: {  }

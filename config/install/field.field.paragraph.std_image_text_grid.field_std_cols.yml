@@ -12,7 +12,7 @@ entity_type: paragraph
 bundle: std_image_text_grid
 label: Columns
 description: ''
-required: false
+required: true
 translatable: true
 default_value:
   -

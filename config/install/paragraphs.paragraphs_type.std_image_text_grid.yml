@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: std_image_text_grid
-label: 'Image + Text grid'
+label: 'X06 Grid of Image + Texts'
 icon_uuid: null
 icon_default: null
 description: ''

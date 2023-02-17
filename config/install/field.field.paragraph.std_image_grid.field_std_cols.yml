@@ -12,11 +12,11 @@ entity_type: paragraph
 bundle: std_image_grid
 label: Columns
 description: ''
-required: false
+required: true
 translatable: true
 default_value:
   -
-    value: std-cols--4
+    value: std-cols--3
 default_value_callback: ''
 settings: {  }
 field_type: list_string
