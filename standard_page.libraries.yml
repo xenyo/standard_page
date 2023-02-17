@@ -10,5 +10,4 @@ global:
       assets/std-image/std-image.css: {}
       assets/std-padding/std-padding.css: {}
       assets/std-text-grid/std-text-grid.css: {}
-      assets/std-text/std-text.css: {}
       assets/std-wrapper/std-wrapper.css: {}
