@@ -1,0 +1,1 @@
+{"mappings":"ACAA,0BAGE","sources":["assets/std-text/std-text.css","assets/std-text/std-text.scss"],"sourcesContent":[".std-text {\n  overflow-x: auto;\n}\n\n.std-text table {\n  min-width: 1000px;\n}\n\n/*# sourceMappingURL=std-text.css.map */\n",".std-text {\n  overflow-x: auto;\n  \n  table {\n    min-width: 1000px;\n  }\n}\n"],"names":[],"version":3,"file":"std-text.css.map"}
