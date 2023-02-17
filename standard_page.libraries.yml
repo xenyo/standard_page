@@ -5,5 +5,4 @@ global:
       assets/std-image-grid/std-image-grid.css: {}
       assets/std-image-text-grid/std-image-text-grid.css: {}
       assets/std-image-text/std-image-text.css: {}
-      assets/std-image/std-image.css: {}
       assets/std-text-grid/std-text-grid.css: {}
