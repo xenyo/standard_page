@@ -1,1 +1,0 @@
-{"mappings":"ACCE","sources":["assets/std-image-grid/std-image-grid.css","assets/std-image-grid/std-image-grid.scss"],"sourcesContent":[".std-image-grid img {\n  display: block;\n}\n\n/*# sourceMappingURL=std-image-grid.css.map */\n",".std-image-grid {\n  img {\n    display: block;\n  }\n}\n"],"names":[],"version":3,"file":"std-image-grid.css.map"}

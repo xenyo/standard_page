@@ -1,17 +1,3 @@
-.std-image-text-grid {
-  img {
-    display: block;
-  }
-
-  &.std-halign--center {
-    text-align: center;
-  }
-
-  &.std-halign--right {
-    text-align: right;
-  }
-}
-
 .std-image-text-grid__text {
   margin-top: 15px;
 }
