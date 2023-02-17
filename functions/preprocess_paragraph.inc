@@ -13,7 +13,8 @@ function xen_paragraphs_preprocess_paragraph(&$variables) {
 
   if ($paragraph->hasField('field_std_cols')) {
     $cols = $paragraph->get('field_std_cols')->getString();
-    $variables['std_cols'] = new Attribute(['class' => ['std-cols', $cols]]);
+    $variables['attributes']['class'][] = 'std-cols';
+    $variables['attributes']['class'][] = $cols;
   }
 
   if ($paragraph->hasField('field_std_halign')) {
