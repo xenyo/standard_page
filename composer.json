@@ -1,5 +1,5 @@
 {
-  "name": "xenyo/standard_page",
-  "description": "Provides paragraph types for standard pages.",
+  "name": "xenyo/xen_paragraphs",
+  "description": "Provides standard paragraph types and related configuration.",
   "type": "drupal-module"
 }

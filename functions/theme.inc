@@ -1,6 +1,6 @@
 <?php
 
-function standard_page_theme() {
+function xen_paragraphs_theme() {
   return [
     'field__field_std_items' => [
       'template' => 'field--reset',

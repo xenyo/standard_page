@@ -1,5 +1,5 @@
 <?php
 
-function standard_page_page_attachments(array &$attachments) {
-  $attachments['#attached']['library'][] = 'standard_page/global';
+function xen_paragraphs_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'xen_paragraphs/global';
 }

@@ -2,7 +2,7 @@
 
 use Drupal\Core\Template\Attribute;
 
-function standard_page_preprocess_paragraph(&$variables) {
+function xen_paragraphs_preprocess_paragraph(&$variables) {
   $is_admin = \Drupal::service('router.admin_context')->isAdminRoute();
   $paragraph = $variables['paragraph'];
 

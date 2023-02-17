@@ -1,11 +1,12 @@
-name: Standard Page
-description: Provides config and libraries for standard pages
+name: Xen Paragraphs
+description: Provides standard paragraph types and related configuration.
 type: module
 core_version_requirement: ^9 || ^10
 dependencies:
   - image_widget_crop
   - node
   - paragraphs
+  - media_library
 config_devel:
   - core.entity_form_display.media.std_image.default
   - core.entity_form_display.media.std_image.media_library
