@@ -7,6 +7,7 @@ dependencies:
     - paragraphs.paragraphs_type.std_image_text_grid_item
   module:
     - media_library
+    - media_library_edit
     - text
 id: paragraph.std_image_text_grid_item.default
 targetEntityType: paragraph
@@ -19,7 +20,9 @@ content:
     region: content
     settings:
       media_types: {  }
-    third_party_settings: {  }
+    third_party_settings:
+      media_library_edit:
+        show_edit: '1'
   field_std_text:
     type: text_textarea
     weight: 1

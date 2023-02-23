@@ -9,6 +9,7 @@ dependencies:
     - paragraphs.paragraphs_type.std_image_text
   module:
     - media_library
+    - media_library_edit
     - text
 id: paragraph.std_image_text.default
 targetEntityType: paragraph
@@ -21,7 +22,9 @@ content:
     region: content
     settings:
       media_types: {  }
-    third_party_settings: {  }
+    third_party_settings:
+      media_library_edit:
+        show_edit: '1'
   field_std_order:
     type: options_select
     weight: 2

@@ -4,9 +4,10 @@ type: module
 core_version_requirement: ^9 || ^10
 dependencies:
   - image_widget_crop
+  - media_library
+  - media_library_edit
   - node
   - paragraphs
-  - media_library
 config_devel:
   - core.entity_form_display.media.std_image.default
   - core.entity_form_display.media.std_image.media_library
