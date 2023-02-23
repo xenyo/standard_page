@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: std_image_grid
-label: 'X05 Grid of Images'
+label: 'X05 Grid - Image'
 icon_uuid: null
 icon_default: null
 description: ''

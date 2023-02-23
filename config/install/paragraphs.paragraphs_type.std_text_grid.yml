@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: std_text_grid
-label: 'X04 Grid of Texts'
+label: 'X04 Grid - Text'
 icon_uuid: null
 icon_default: null
 description: ''
