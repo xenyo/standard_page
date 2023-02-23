@@ -12,7 +12,7 @@ entity_type: paragraph
 bundle: std_image_text
 label: Order
 description: ''
-required: false
+required: true
 translatable: false
 default_value:
   -
