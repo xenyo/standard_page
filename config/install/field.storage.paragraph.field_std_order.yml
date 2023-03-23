@@ -12,10 +12,13 @@ settings:
   allowed_values:
     -
       value: std-order--normal
-      label: Normal
+      label: 'Left-sided image'
     -
       value: std-order--reverse
-      label: Reverse
+      label: 'Right-sided image'
+    -
+      value: std-order--centered
+      label: 'Centered image'
   allowed_values_function: ''
 module: options
 locked: false

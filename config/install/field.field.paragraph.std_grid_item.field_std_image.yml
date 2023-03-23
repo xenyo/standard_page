@@ -4,15 +4,15 @@ dependencies:
   config:
     - field.storage.paragraph.field_std_image
     - media.type.std_image
-    - paragraphs.paragraphs_type.std_image
-id: paragraph.std_image.field_std_image
+    - paragraphs.paragraphs_type.std_grid_item
+id: paragraph.std_grid_item.field_std_image
 field_name: field_std_image
 entity_type: paragraph
-bundle: std_image
+bundle: std_grid_item
 label: Image
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

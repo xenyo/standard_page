@@ -3,17 +3,17 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.field_std_text
-    - paragraphs.paragraphs_type.std_image_text
+    - paragraphs.paragraphs_type.std_grid_item
   module:
     - text
-id: paragraph.std_image_text.field_std_text
+id: paragraph.std_grid_item.field_std_text
 field_name: field_std_text
 entity_type: paragraph
-bundle: std_image_text
+bundle: std_grid_item
 label: Text
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

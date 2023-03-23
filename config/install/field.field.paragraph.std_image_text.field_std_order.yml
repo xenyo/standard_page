@@ -10,7 +10,7 @@ id: paragraph.std_image_text.field_std_order
 field_name: field_std_order
 entity_type: paragraph
 bundle: std_image_text
-label: Order
+label: Layout
 description: ''
 required: true
 translatable: false
