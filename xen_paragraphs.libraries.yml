@@ -2,5 +2,4 @@ global:
   css:
     theme:
       assets/std-cols/std-cols.css: {}
-      assets/std-image-text-grid/std-image-text-grid.css: {}
       assets/std-image-text/std-image-text.css: {}

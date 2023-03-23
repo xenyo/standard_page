@@ -18,28 +18,12 @@ function xen_paragraphs_theme() {
       'template' => 'paragraph--std-image',
       'base hook' => 'paragraph',
     ],
-    'paragraph__std_image_grid' => [
-      'template' => 'paragraph--std-image-grid',
-      'base hook' => 'paragraph',
-    ],
     'paragraph__std_image_text' => [
       'template' => 'paragraph--std-image-text',
       'base hook' => 'paragraph',
     ],
-    'paragraph__std_image_text_grid' => [
-      'template' => 'paragraph--std-image-text-grid',
-      'base hook' => 'paragraph',
-    ],
-    'paragraph__std_image_text_grid_item' => [
-      'template' => 'paragraph--std-image-text-grid-item',
-      'base hook' => 'paragraph',
-    ],
     'paragraph__std_text' => [
       'template' => 'paragraph--std-text',
-      'base hook' => 'paragraph',
-    ],
-    'paragraph__std_text_grid' => [
-      'template' => 'paragraph--std-text-grid',
       'base hook' => 'paragraph',
     ],
   ];
