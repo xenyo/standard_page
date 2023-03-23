@@ -26,5 +26,13 @@ function xen_paragraphs_theme() {
       'template' => 'paragraph--std-text',
       'base hook' => 'paragraph',
     ],
+    'paragraph__std_grid' => [
+      'template' => 'paragraph--std-grid',
+      'base hook' => 'paragraph',
+    ],
+    'paragraph__std_grid_item' => [
+      'template' => 'paragraph--std-grid-item',
+      'base hook' => 'paragraph',
+    ],
   ];
 }
