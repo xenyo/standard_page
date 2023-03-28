@@ -1,0 +1,48 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_std_items
+    - paragraphs.paragraphs_type.std_acc
+    - paragraphs.paragraphs_type.std_acc_item
+  module:
+    - entity_reference_revisions
+id: paragraph.std_acc.field_std_items
+field_name: field_std_items
+entity_type: paragraph
+bundle: std_acc
+label: Items
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      std_acc_item: std_acc_item
+    negate: 0
+    target_bundles_drag_drop:
+      std_acc:
+        weight: 8
+        enabled: false
+      std_acc_item:
+        weight: 9
+        enabled: true
+      std_grid:
+        weight: 10
+        enabled: false
+      std_grid_item:
+        weight: 11
+        enabled: false
+      std_image:
+        weight: 12
+        enabled: false
+      std_image_text:
+        weight: 13
+        enabled: false
+      std_text:
+        weight: 14
+        enabled: false
+field_type: entity_reference_revisions

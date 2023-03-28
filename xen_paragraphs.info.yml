@@ -11,6 +11,8 @@ dependencies:
 config_devel:
   - core.entity_form_display.media.std_image.default
   - core.entity_form_display.media.std_image.media_library
+  - core.entity_form_display.paragraph.std_acc_item.default
+  - core.entity_form_display.paragraph.std_acc.default
   - core.entity_form_display.paragraph.std_grid_item.default
   - core.entity_form_display.paragraph.std_grid.default
   - core.entity_form_display.paragraph.std_image_text.default
@@ -18,6 +20,8 @@ config_devel:
   - core.entity_form_display.paragraph.std_text.default
   - core.entity_view_display.media.std_image.default
   - core.entity_view_display.media.std_image.media_library
+  - core.entity_view_display.paragraph.std_acc_item.default
+  - core.entity_view_display.paragraph.std_acc.default
   - core.entity_view_display.paragraph.std_grid_item.default
   - core.entity_view_display.paragraph.std_grid.default
   - core.entity_view_display.paragraph.std_image_text.default
@@ -25,6 +29,9 @@ config_devel:
   - core.entity_view_display.paragraph.std_text.default
   - crop.type.std_crop
   - field.field.media.std_image.field_media_image
+  - field.field.paragraph.std_acc_item.field_std_acc_item_title
+  - field.field.paragraph.std_acc_item.field_std_text
+  - field.field.paragraph.std_acc.field_std_items
   - field.field.paragraph.std_grid_item.field_std_image
   - field.field.paragraph.std_grid_item.field_std_text
   - field.field.paragraph.std_grid.field_std_cols
@@ -35,6 +42,7 @@ config_devel:
   - field.field.paragraph.std_image_text.field_std_valign
   - field.field.paragraph.std_image.field_std_image
   - field.field.paragraph.std_text.field_std_text
+  - field.storage.paragraph.field_std_acc_item_title
   - field.storage.paragraph.field_std_cols
   - field.storage.paragraph.field_std_image
   - field.storage.paragraph.field_std_items
@@ -43,6 +51,8 @@ config_devel:
   - field.storage.paragraph.field_std_valign
   - image.style.std_image
   - media.type.std_image
+  - paragraphs.paragraphs_type.std_acc_item
+  - paragraphs.paragraphs_type.std_acc
   - paragraphs.paragraphs_type.std_grid
   - paragraphs.paragraphs_type.std_grid_item
   - paragraphs.paragraphs_type.std_image

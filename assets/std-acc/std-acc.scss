@@ -1,0 +1,60 @@
+@use 'sass-utils' as *;
+
+.std-acc__item {
+  border-top: 1px solid #cbcbcb;
+  padding: 20px 0;
+
+  &:first-child {
+    border-top: none;
+    padding-top: 0;
+  }
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+
+  &.is-open {
+    .std-acc__arrow {
+      top: calc(50% + 3px);
+      transform: translateY(-50%) rotate(225deg);
+    }
+
+    .std-acc__body {
+      height: auto;
+    }
+  }
+}
+
+.std-acc__header {
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+}
+
+.std-acc__arrow {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  top: calc(50% - 3px);
+  transform: translateY(-50%) rotate(45deg);
+  left: 2px;
+}
+
+.std-acc__title {
+  margin: 0;
+  color: inherit;
+  font-weight: normal;
+}
+
+.std-acc__body {
+  padding-left: 35px;
+  height: 0;
+  @include transition(height);
+  overflow: hidden;
+}
+
+.std-acc__inner {
+  padding-top: 20px;
+}

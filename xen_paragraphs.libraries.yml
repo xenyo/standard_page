@@ -3,3 +3,6 @@ global:
     theme:
       assets/std-cols/std-cols.css: {}
       assets/std-image-text/std-image-text.css: {}
+      assets/std-acc/std-acc.css: {}
+  js:
+    assets/std-acc/std-acc.js: {}

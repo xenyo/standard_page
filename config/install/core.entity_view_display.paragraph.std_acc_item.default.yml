@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.std_acc_item.field_std_acc_item_title
+    - field.field.paragraph.std_acc_item.field_std_text
+    - paragraphs.paragraphs_type.std_acc_item
+  module:
+    - text
+id: paragraph.std_acc_item.default
+targetEntityType: paragraph
+bundle: std_acc_item
+mode: default
+content:
+  field_std_acc_item_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_std_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

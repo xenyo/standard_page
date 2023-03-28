@@ -10,10 +10,6 @@ function xen_paragraphs_theme() {
       'template' => 'node--std-page',
       'base hook' => 'node',
     ],
-    'paragraph__std_banner' => [
-      'template' => 'paragraph--std-banner',
-      'base hook' => 'paragraph',
-    ],
     'paragraph__std_image' => [
       'template' => 'paragraph--std-image',
       'base hook' => 'paragraph',
@@ -32,6 +28,14 @@ function xen_paragraphs_theme() {
     ],
     'paragraph__std_grid_item' => [
       'template' => 'paragraph--std-grid-item',
+      'base hook' => 'paragraph',
+    ],
+    'paragraph__std_acc' => [
+      'template' => 'paragraph--std-acc',
+      'base hook' => 'paragraph',
+    ],
+    'paragraph__std_acc_item' => [
+      'template' => 'paragraph--std-acc-item',
       'base hook' => 'paragraph',
     ],
   ];
