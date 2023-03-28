@@ -1,5 +1,10 @@
 {
   "name": "xenyo/xen_paragraphs",
   "description": "Provides standard paragraph types and related configuration.",
-  "type": "drupal-module"
+  "type": "drupal-module",
+  "require": {
+    "drupal/paragraphs": "^1.15",
+    "drupal/image_widget_crop": "^2.4",
+    "drupal/media_library_edit": "^3.0"
+  }
 }
