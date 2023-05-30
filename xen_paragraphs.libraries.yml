@@ -4,5 +4,6 @@ global:
       assets/std-cols/std-cols.css: {}
       assets/std-image-text/std-image-text.css: {}
       assets/std-acc/std-acc.css: {}
+      assets/std-grid-item/std-grid-item.css: {}
   js:
     assets/std-acc/std-acc.js: {}

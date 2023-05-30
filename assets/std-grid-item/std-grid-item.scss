@@ -1,0 +1,7 @@
+@use 'sass-utils' as *;
+
+.std-grid-item {
+  & > :not(:first-child) {
+    margin-top: 20px;
+  }
+}

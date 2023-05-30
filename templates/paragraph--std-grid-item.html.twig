@@ -1,3 +1,12 @@
 <div{{ attributes.addClass('std-grid-item') }}>
-  {{ content }}
+  {% if paragraph.field_std_image.value %}
+    <div class="std-grid-item__image">
+      {{ content.field_std_image }}
+    </div>
+  {% endif %}
+  {% if paragraph.field_std_text.value %}
+    <div class="std-grid-item__text">
+      {{ content.field_std_text }}
+    </div>
+  {% endif %}
 </div>
